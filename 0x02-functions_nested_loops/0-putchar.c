@@ -1,13 +1,14 @@
-#include <stdio.h>
-#define PRINT printf("_putchar\n")
+#ifndef main_h
+#define main_h
+
 /**
  * main - Entry point
- * Return: always 0 (success)
+ * Return: always 0 (Success)
  */
 
 int main(void)
 {
-	if (PRINT)
-		n++
+	printf("_putchar\n")
+		
 	return (0)
 }
