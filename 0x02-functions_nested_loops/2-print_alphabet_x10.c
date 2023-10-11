@@ -5,10 +5,10 @@
  * return: void
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char q;
-	int a = 0
+	int a = 0;
 
 	while (a <= 10)
 	{
@@ -16,7 +16,7 @@ void print_alphabet_x10(void);
 	{
 	_putchar(q);
 	}
-	_putchar('\n')
+	_putchar('\n');
 	a++;
 	}
 }
