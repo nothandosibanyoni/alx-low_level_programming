@@ -3,18 +3,18 @@
 
 /**
  * malloc_checked -  a function that allocates memory using malloc
- * @b: input function
+ * @b: input int
  * Return: void
  */
 
 void *malloc_checked(unsigned int b)
 {
-	void *pointer;
+	void *ptr;
 
-	pointer = malloc(b);
-	if (pointer == NULL)
+	ptr = malloc(b);
+	if (ptr == NULL)
 	{
 		exit(98);
 	}
-	return (pointer);
+	return (ptr);
 }
